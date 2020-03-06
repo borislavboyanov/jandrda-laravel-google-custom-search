@@ -5,10 +5,7 @@
     <title></title>
   </head>
   <body>
-    @foreach($results as $result)
+    {{dd($results)}} <br><br>
 
-    {{print_r($result)}}
-
-    @endforeach
   </body>
 </html>
